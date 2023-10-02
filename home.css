@@ -18,7 +18,6 @@ body
 .nav1
 {
     padding: 2px;
-	background-color: aqua;
 	display: flex;
 	flex-direction: row;
 
@@ -39,7 +38,7 @@ body
 .box1
 {
 	display: flex;
-	background-color: rgb(83 129 141);
+	background-color: rgb(143 197 126);
 	border: 10px black;
     padding: 8px;
     justify-content: space-between;
@@ -186,13 +185,17 @@ body
 {
 	padding: 5px;
     border-radius: 5px;
-    margin-top: 6px;
+
     font-size: 21px;
     cursor: pointer;
     background-color: rgb(110, 172, 110);
 	
 }
-.btn123:hover
+.bttn1
+{
+	padding: 10px;
+}
+.bttn1 a button:hover
 {
 	background-color: rgb(93, 139, 93);
 	transition: 0.3s;
