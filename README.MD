@@ -1,4 +1,4 @@
-(In order to run the website using local host in computer few steps needs must be implimented)
+(In order to run the website using local host in computer few steps must be implimented)
 STEP-1 : XAMPP control panel should be downloaded in computer for accessing database and creating local server .
 STEP-2 : All the downloaded files from repository should be kept inside specific folder(C:\xampp\htdocs).
 STEP-3 : After setting up XAMPP control panel and starting both apache and mysql,go to admin page.
