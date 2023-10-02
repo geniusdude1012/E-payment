@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+*{
+	
+	font-family:  sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 400;
+	font-size: 15px;
+	list-style: none;
+	letter-spacing: 1px;
+    border: none;
+}
+body
+{
+    background:linear-gradient(to right,rgb(119, 64, 130),rgba(119, 64, 130,0.3));
+}
+.box1
+{
+    height:374px;
+    width: 370px;
+    background-color: rgb(153 168 235);
+    margin: 150px auto;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    
+}
+h1{
+	font-size: 18px;
+    font-weight: 600;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+.btn input
+{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(28, 31, 221);
+    color: white;
+    cursor: pointer;
+}
+.btn input:hover
+{
+    background-color: rgb(46, 49, 224);
+    transition: 0.3s;
+}
+label
+{
+    padding: 4px;
+}
+input
+{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 3px;
+}
+select
+{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 3px;
+}
+img
+{
+    height: 65px;
+    width: 202px;
+}
+.img1
+{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+.container
+{
+    display: flex;
+}

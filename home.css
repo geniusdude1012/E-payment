@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+*
+{
+	
+	font-family: 'Smooch Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 600;
+	font-size: 25px;
+	list-style: none;
+	letter-spacing: 2px;
+
+}
+body
+{
+    background:linear-gradient(to right,rgb(119, 64, 130),rgba(119, 64, 130,0.3));
+}
+.nav1
+{
+
+	background-color: aqua;
+}
+.navbar
+{
+	display: flex;
+	flex-direction: row;
+}
+.navbar ul
+{
+	display: flex;
+	border:8px blue;
+	flex-direction: row;
+	padding:11px;
+}
+.box1
+{
+	display: flex;
+	background-color: rgb(83 129 141);
+	border: 10px black;
+    padding: 8px;
+    justify-content: space-between;
+	position: sticky;
+	top: 0;
+}
+.navbar ul li a{
+	text-decoration: none;
+    padding: 1px;
+	padding-left: 4px;
+    padding-right: 4px;
+    margin: 36px;
+	cursor: pointer;
+}
+#head1
+{
+	padding-top: 7px;
+	padding-left: 8px;
+	font-size: 28px;
+}
+.navbar ul li a:hover,.navbar ul li a.active
+{
+	color:rgb(158, 158, 11) ;
+	border-bottom: 0.5px solid rgb(158, 158, 11) ;
+    transition: 0.25s;
+}
+
+.img1
+{
+	height:15px;
+}
+.btn2
+{
+	text-decoration: none;
+	background-color: rgb(226, 17, 132);
+	padding:5px;
+	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+.btn2:hover
+{
+	background-color: rgb(182, 53, 124);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container
+{
+	height: 500px;
+	width: 100%;
+	background-color:rgb(157 172 201);
+	display: flex;
+}
+.feat
+{
+	width: 1017px;
+    border: 2px solid black;
+    height: 278px;
+    margin: 146px auto;
+    background-color: rgb(165 143 143);
+    border-radius: 12px;
+}
+.box3
+{
+	display: flex;
+	margin: 25px;
+	flex-direction: column;
+}
+.container2
+{
+	display: flex;
+	justify-content: center;
+}
+.img3
+{
+	display: flex;
+	justify-content: center;
+}
+.butt1
+{
+	height: 62px;
+    width: 63px;
+	padding: 13px;
+	margin: 12px;
+	border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.7);
+	background-color: rgb(201, 197, 197);
+	cursor: pointer;
+}
+.butt1:hover
+{
+	background-color: rgb(155, 155, 155);
+}
+.ser
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 30px;
+	margin: 12px;
+}
+.element span
+{
+	font-weight: 600;
+}
+.pic1
+{
+	height: 400px;
+	width: 850px;
+	border: 2px solid black;
+	padding: 0px;
+	margin: 27px;
+}
+.display
+{
+	height: 250px;
+    width: 216px;
+    background-color: rgb(167, 184, 184);
+    margin: 119px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0,0.7);
+}
+.session
+{
+	display: flex;
+	justify-content: center;
+}
+.ele
+{
+	display: flex;
+	justify-content: center;
+}
+.user
+{
+	margin: 8px;
+}
+	
+.bttn1 a button
+{
+	padding: 4px;
+    border-radius: 8px;
+    margin-top: 6px;
+	font-size: 20px;
+    cursor: pointer;
+	background-color: rgb(110, 172, 110);
+	
+}
+.btn123:hover
+{
+	background-color: rgb(93, 139, 93);
+	transition: 0.3s;
+}
+.imag1
+{
+    width:800px;
+    height :600px;
+   
+    margin: 30px;
+}
+.imag1 img
+{
+    height: 100%;
+    width: 100%;
+}
+.img
+{
+    display: flex;
+    background-color: black;
+
+}
+.img p{
+    font-size: 20px;
+    color: white;
+}
+.pic1 img{
+	height: 100%;
+	width: 100%;
+}
+.head
+{
+    height:150px;
+    width: 400px;
+    margin: 200px auto;
+    padding: 5px;
+    align-items: center;
+}
+.head button
+{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+}
+.head button:hover
+{
+    background-color: gray;
+    transition: 0.3s;
+}
+.contact1
+{
+	display: flex;
+	justify-content: center;
+}
+.contact{
+	height: 800px;
+	width: 100%;
+	border: 1px solid black;
+	margin: 50px auto;
+}
+.cont1
+{
+	height: 504px;
+    width: 287px;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 37px;
+    border-radius: 19px;
+	background-color:rgb(165 143 143);
+}
+.contact2
+{
+	display: flex;
+	justify-content: center;
+	margin:30px;
+}
+.photo img
+{
+	width:100%;
+	height: 394px;
+}
+.info
+{
+	display: flex;
+	justify-content: center;
+}
+.detail
+{
+	margin: 3px;
+}
+.contact1 span{
+	font-size: 38px;
+    font-weight: 900;
+}
+

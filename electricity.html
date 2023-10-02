@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="electricity.css">
+</head>
+
+<body>
+    <div class="box1">
+        <div class="head">
+            <h1>Electricity-Bill-Enquiry</h1>
+        </div>
+        <div class="img1">
+            <a href="https://www.nea.org.np/"><img src="nea.png"></a>
+        </div>
+        <form class="tool" action="electricity.php" method="post">
+            <div class="container">
+                <label>Customer Name:</label>
+                <input type="text" name="cust-name" required>
+            </div>
+            <div class="container">
+                <label>Customer ID:</label>
+                <input type="number" value="number" name="cust-id" required>
+            </div>
+            <div class="container">
+                <label>Counter No.</label>
+                <select name="counter">
+                    <option value="counter1">counter 1</option>
+                    <option value="counter2">counter 2</option>
+                    <option value="counter3">counter 3</option>
+                </select>
+            </div>
+            <div class="container">
+                <label>Month: </label>
+                <select name="month">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+            <div class="container">
+                <label>Units: </label>
+                <input type="number" value="number" name="unit" required>
+            </div>
+            <div class="container">
+                <label>Date Of Enquiry: </label>
+                <input type="date" value="date" name="date" required>
+            </div>
+            <div class="btn">
+                <input type="submit" value="submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

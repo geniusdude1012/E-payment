@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit</title>
+    <link rel="stylesheet" type="text/css" href="deposit.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="cont">
+
+        </div>
+        <div class="box1">
+            <div class="head">
+                <h1>Load Money</h1>
+            </div>
+            <form class="form1" action="deposit.php" id="deposit" method="post">
+                <div class="lb1">
+                    <label>Enter amount to deposit :</label>
+                    <input type="number" placeholder="Amount" name="amount" required>
+                </div>
+                <div class="lb2">
+                    <a onclick="checkcon()"><button type="submit" class="subtn1" name="btn5">DEPOSIT</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function checkcon() {
+            var test=confirm('Are You Sure?');
+            if(test==false)
+            {
+                event.preventDefault();
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login design</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box1">
+                <div id="btn1" class="btn1"></div>
+                <button type="button" class="btn2" onclick="login()">Login</button>
+                <button type="button" class="btn2" onclick="register()">Register</button>
+            </div>
+                <form action="login.php" id="login" class="form1" method="post">
+                    <input type="text" class="inpform1" placeholder="Username" name="userr" required>
+                    <input type="password" class="inpform1" placeholder="password" name="password" required>
+                    <input type="checkbox" class="check1"><span>Remember password</span>
+                    <button type="submit" class="subtn">Login</button>
+                </form>
+                <form action="register.php" id="register" class="form1" method="post">
+                    <input type="text" class="inpform1" placeholder="Username" name="user" required>
+                    <input type="email" class="inpform1" placeholder="Email" name="email" required>
+                    <input type="password" class="inpform1" placeholder="password" name="password1" required>
+                    <input type="checkbox" class="check1"><span>I agree to the terms & conditions</span>
+                    <button type="submit" class="subtn">Register</button>
+                </form>
+		</div>
+    </div>
+    <script>
+        var a=document.getElementById("login");
+        var b=document.getElementById("register");
+        var c=document.getElementById("btn1");
+        function register()
+        {
+            a.style.left="-400px";
+            b.style.left="22px";
+            c.style.left="80px";
+        }
+        function login()
+        {
+            a.style.left="22px";
+            b.style.left="450px";
+            c.style.left="0px";
+        }
+    </script>
+</body>
+</html>

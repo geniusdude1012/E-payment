@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+*{
+	
+	font-family:  sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 400;
+	font-size: 18px;
+	list-style: none;
+	letter-spacing: 1px;
+    border: none;
+}
+body
+{
+    background:linear-gradient(to right,rgb(119, 64, 130),rgba(119, 64, 130,0.3));
+}
+.box
+{
+    height: 250px;
+    width: 500px;
+    background-color: rgb(204, 173, 127);
+    margin: 105px auto;
+    border-radius:23px;
+    border:1px solid black;
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.7);
+}
+.cont
+{
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+    border-radius:20px 20px 0 0 ;
+}
+.box1
+{
+    padding: 8px;
+
+}
+
+.head
+{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+h1
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.lb2{
+    display: flex;
+    justify-content: center;
+    margin:23px;
+
+}
+.lb1{
+    margin: 13px;
+}
+input
+{
+    padding: 3px;
+    border-radius: 5px;
+}
+.subtn1
+{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 0px;
+    background-color:rgb(56, 92, 209) ;
+}
+.subtn1:hover
+{
+    background-color:rgb(90, 118, 209) ;
+    transition: 0.3s;
+
+}
