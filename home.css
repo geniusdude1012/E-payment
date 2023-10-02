@@ -17,10 +17,11 @@ body
 }
 .nav1
 {
-    padding: 3px;
+    padding: 2px;
 	background-color: aqua;
 	display: flex;
 	flex-direction: row;
+
 }
 .navbar
 {
@@ -32,7 +33,8 @@ body
 	display: flex;
 	border:8px blue;
 	flex-direction: row;
-	padding:11px;
+	padding:10px;
+	margin: 2px;
 }
 .box1
 {
@@ -49,7 +51,7 @@ body
     padding: 1px;
 	padding-left: 4px;
     padding-right: 4px;
-    margin: 36px;
+    margin: 55px;
 	cursor: pointer;
 }
 #head1
@@ -182,12 +184,12 @@ body
 	
 .bttn1 a button
 {
-	padding: 4px;
-    border-radius: 8px;
+	padding: 5px;
+    border-radius: 5px;
     margin-top: 6px;
-	font-size: 20px;
+    font-size: 21px;
     cursor: pointer;
-	background-color: rgb(110, 172, 110);
+    background-color: rgb(110, 172, 110);
 	
 }
 .btn123:hover
