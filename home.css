@@ -93,6 +93,7 @@ body
 	width: 100%;
 	background-color:rgb(157 172 201);
 	display: flex;
+	margin-bottom: 52px;
 }
 .feat
 {
@@ -102,6 +103,7 @@ body
     margin: 146px auto;
     background-color: rgb(165 143 143);
     border-radius: 12px;
+	box-shadow:  0 0 15px rgba(0, 0, 0,0.7);
 }
 .box3
 {
@@ -141,6 +143,12 @@ body
 	width: 100%;
 	height: 30px;
 	margin: 12px;
+}
+.serv1
+{
+	font-size:33px;
+	padding: 6px;
+	font-weight: 600;
 }
 .element span
 {
@@ -250,22 +258,27 @@ body
 {
 	display: flex;
 	justify-content: center;
+	margin: 5px;
 }
 .contact{
-	height: 800px;
-	width: 100%;
+	height: 750px;
+    width: 1250px;
 	border: 1px solid black;
 	margin: 50px auto;
+	border-radius: 19px;
+	background-color: rgb(165 143 143);
+	box-shadow:  0 0 15px rgba(0, 0, 0,0.7);
+
 }
 .cont1
 {
-	height: 504px;
-    width: 287px;
-    margin: 20px;
+	height: 456px;
+    width: 267px;
+    margin: 30px;
     border: 1px solid black;
     padding: 37px;
     border-radius: 19px;
-	background-color:rgb(165 143 143);
+	background-color:rgb(102 124 124);
 }
 .contact2
 {
@@ -276,7 +289,7 @@ body
 .photo img
 {
 	width:100%;
-	height: 394px;
+	height: 384px;
 }
 .info
 {
@@ -287,8 +300,5 @@ body
 {
 	margin: 3px;
 }
-.contact1 span{
-	font-size: 38px;
-    font-weight: 900;
-}
+
 

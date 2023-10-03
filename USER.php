@@ -61,7 +61,7 @@
     </div>
     <div class="feat">
         <div class="ser" id="service">
-            <span>OUR SERVICES</span>
+            <span class="serv1">OUR SERVICES</span>
         </div>
         <div class="container2">
             <div class="box3">
@@ -92,7 +92,7 @@
     </div>
     <div class="contact" id="contactus">
         <div class="contact1">
-            <span>Contact Us</span>
+            <span class="serv1">Contact Us</span>
         </div>
         <div class="contact2">
             <div class="cont1">
