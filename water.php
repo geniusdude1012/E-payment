@@ -1,9 +1,5 @@
 <?php
-$servername = "localhost";
-$user = "root";
-$password = "";
-$dbasename = "proj1";
-$conn = mysqli_connect($servername, $user, $password, $dbasename);
+include("connect.php");
 $name = $_POST['cust-name'];
 $id = $_POST['cust-id'];
 $cn = $_POST['counter'];

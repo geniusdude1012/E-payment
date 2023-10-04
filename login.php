@@ -1,10 +1,5 @@
 <?php
-
-$servername = "localhost";
-$user = "root";
-$password = "";
-$dbasename = "proj1";
-$conn = mysqli_connect($servername, $user, $password, $dbasename);
+include("connect.php");
 $name = $_POST['userr'];
 $pd = $_POST['password'];
 session_start();
