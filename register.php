@@ -4,6 +4,8 @@ $name = $_POST['user'];
 $em = $_POST['email'];
 $pd = $_POST['password1'];
 session_start();
+error_reporting(0);
+
 $qy1="SELECT * FROM REGISTER WHERE USERNAME ='$name' || PASSWORD ='$pd'";
 $inform1=mysqli_query($conn,$qy1);
 $tot1=mysqli_num_rows($inform1);

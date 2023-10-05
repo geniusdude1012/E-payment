@@ -15,10 +15,8 @@ body
 .container {
     height: 100%;
     width: 100%;
-    background-image: url(astro.jpg);
     background-position: center;
     background-size: cover;
-    position: absolute;
     background-blend-mode: darken;
 }
 .box
@@ -28,26 +26,11 @@ body
     background-color: rgb(209, 144, 144);
     margin: 4% auto;
     padding: 15px;
-    position: relative;
-    overflow: hidden;
     border-radius: 18px;
     box-shadow: 0 0 25px rgb(0, 0, 0,0.5);
     border: 1px solid black;
 }
-.box1
-{
-    width: 157px;
-    margin: 15px auto;
-    background-color: aqua;
-    position: relative;
-    box-shadow: 0 0 18px rgb(197, 13, 13);
-    padding: 6px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    text-align: center;
-}
+
 .btn1
 {
     top: 0;
@@ -107,24 +90,18 @@ span
 {
     color: rgb(52, 64, 75);
     font-size: 12px;
-    position: absolute;
     bottom: 96px;
 }
 .form1
 {
-    top:121px;
+    top:125px;
     width:270px;
-    position: absolute;
     transition: .5s;
-    overflow:hidden ;
 }
-#login
+.boxx
 {
-    left:20px;
-}
-#register
-{
-    left: 450px;
+    margin-top: 48px;
+    margin-left: 5px;
 }
 .btn-blk
 {
@@ -132,23 +109,15 @@ span
 }
 .admin
 {
-   
     padding: 5px;
     width:100% ;
     display: flex;
     justify-content: center;
 }
-.admin button
-{
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 8px;
-    background-color:rgb(55, 211, 55);
+.admin h1{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
 }
-.admin button:hover
-{
-    background-color:rgb(37, 145, 37);
-    transition: 0.3s;
-    box-shadow: 0 0 15px rgba(0, 0, 0,0.7);
-}
+
 
