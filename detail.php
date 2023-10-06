@@ -15,6 +15,8 @@ include('connect.php');
         <?php
     }
     else{
+        echo "<font color='green'>LOGIN SUCCESSFULL !!!";
+
         ?>
         <meta http-equiv="refresh" content="2; url = admin.php" />
         <?php

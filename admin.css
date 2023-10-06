@@ -16,13 +16,10 @@ body
 }
 .box
 {
-    height: 362px;
-    width: 300px;
+    height: 321px;
+    width: 343px;
     background-color: rgb(209, 144, 144);
     margin: 4% auto;
-    padding: 15px;
-    position: relative;
-    overflow: hidden;
     border-radius: 18px;
     box-shadow: 0 0 25px rgb(0, 0, 0,0.5);
     border: 1px solid black;
@@ -61,10 +58,12 @@ h1
 .lb1{
     margin: 13px;
 }
-input
+.inpform1
 {
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
+    margin: 5px;
+    width: 231px;
 }
 .subtn1
 {
@@ -79,5 +78,36 @@ input
     background-color:rgb(90, 118, 209) ;
     transition: 0.3s;
 
+}
+.bttn
+{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.bttn button
+{
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #a0f150;
+}
+.bttn button:hover
+{
+    background-color: #75af3b;
+    transition: 0.3s;
+}
+.check
+{
+    margin: 8px;
+}
+.check input{
+    margin:6px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 14px 13px 30px;
 }
 

@@ -36,7 +36,8 @@
                 <td>$value[EMAIL]</td>
                 <td>$value[PASSWORD]</td>
                 <td>$value[AMOUNT]</td>
-                <td><a href='update.php?USERNAME=$value[USERNAME]'>Update</a></td>
+                <td><a href='update.php?USERNAME=$value[USERNAME]'>Update</a>
+                <a href='delete.php?USERNAME=$value[USERNAME]' onclick='checkcon()'>Delete</a></td>
             </tr> ";
             }
         } else {
@@ -44,8 +45,15 @@
         }
             ?>
             </table></center>
-        <?php
-     ?>
+            <script>
+        function checkcon() {
+            var test=confirm('Are you sure you want to delete ?');
+            if(test==false)
+            {
+                event.preventDefault();
+            }
+        }
+    </script>
 </body>
 
 </html>
