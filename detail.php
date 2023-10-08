@@ -20,4 +20,7 @@ include('connect.php');
         ?>
         <meta http-equiv="refresh" content="2; url = admin.php" />
         <?php
-    }
+        
+    }session_start();
+        $_SESSION['name']=$name1;
+?>

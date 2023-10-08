@@ -1,3 +1,6 @@
+<?php
+include("secure.php");
+?>
 <!DOCTYPE html>
 <html>
 
@@ -40,7 +43,6 @@
                 </div>
                 <div class="session">
                     <?php
-                    session_start();
                     echo $_SESSION['name'];
                     ?>
                 </div>

@@ -23,3 +23,15 @@ table td{
     padding: 5px;
     border: 2px solid black;
 }
+.bttn button
+{
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #a0f150;
+}
+.bttn button:hover
+{
+    background-color: #75af3b;
+    transition: 0.3s;
+}

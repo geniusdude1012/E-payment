@@ -1,5 +1,7 @@
 <?php
+include("connect.php");
 session_start();
-session_unset();
+session_destroy();
+header('location:login.html');
 ?>
-<meta http-equiv = "refresh" content = "2; url = logout.html" />
+

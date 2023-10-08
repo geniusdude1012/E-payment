@@ -7,6 +7,16 @@ $mn = $_POST['month'];
 $units = $_POST['unit'];
 $date = $_POST['date'];
 error_reporting(0);
+if($units<=0)
+{
+    echo "<font color='red' family='sans-serif'>Invalid entry!!!Try again.....";
+    
+    ?>
+        <meta http-equiv="refresh" content="1; url = electricity.html" />
+    <?php
+}
+else
+{
 $sum = 0;
 $tax = 0;
 $total = 0;
@@ -55,3 +65,4 @@ $epdf->ln(8);
 $epdf->cell(50,15,"Total :",0,0);
 $epdf->cell(0,15,"$total",0,1);
 $epdf->Output();
+}

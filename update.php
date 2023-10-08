@@ -25,7 +25,7 @@ $result = mysqli_fetch_assoc($data);
                 <form action="#" id="register" class="form1" method="post">
                     <input type="text" class="inpform1" value="<?php echo $result['USERNAME'] ?>" Username" name="user" required>
                     <input type="email" class="inpform1" value="<?php echo $result['EMAIL'] ?>" placeholder="Email" name="email" required>
-                    <input type="password" class="inpform1" value="<?php echo $result['PASSWORD'] ?>" placeholder="password" name="password1" required>
+                    <input type="password" class="inpform1"  placeholder="password" name="password1" required>
                     <input type="checkbox" class="check1"><span>I agree to the terms & conditions</span>
                     <input type="submit" value="update" class="subtn" name="update1">
                 </form>
@@ -41,13 +41,14 @@ if ($_POST['update1']) {
     $name = $_POST['user'];
     $em = $_POST['email'];
     $pd = $_POST['password1'];
-    $query="UPDATE REGISTER SET USERNAME='$name', EMAIL='$em', PASSWORD='$pd'where USERNAME='$us'";
+    $hash=password_hash($pd,PASSWORD_DEFAULT);
+    $query="UPDATE REGISTER SET USERNAME='$name', EMAIL='$em', PASSWORD='$hash'where USERNAME='$us'";
     $data1=mysqli_query($conn,$query);
     if($data)
     {
          echo "<script>alert('Record Updated')</script>";
          ?>
-    <meta http-equiv="refresh" content="0; url = http://localhost:3000/admin.php" />
+    <meta http-equiv="refresh" content="0; url = admin.php" />
 <?php
     }
     else{

@@ -1,6 +1,6 @@
 <?php
 include("connect.php");
-session_start();
+include("secure.php");
 $name = $_SESSION['name'];
 $pwd = $_SESSION['pass'];
 $amount1 = $_POST['amount'];
@@ -12,14 +12,14 @@ if ($amount1 < 0) {
 <?php
 } 
 else {
-    $qy = "UPDATE REGISTER SET AMOUNT=AMOUNT+$amount1 where USERNAME='$name' && PASSWORD='$pwd'";
+    $qy = "UPDATE REGISTER SET AMOUNT=AMOUNT+$amount1 where USERNAME='$name'";
     $inform = mysqli_query($conn, $qy);
     if ($inform) {
         echo "<font color='green'>Amount Sucessfully Deposited!!!!";
     } else {
         echo "Failed";
     }
-    $qy1 = "SELECT * FROM REGISTER WHERE USERNAME ='$name' || PASSWORD ='$pwd'";
+    $qy1 = "SELECT * FROM REGISTER WHERE USERNAME ='$name'";
     $inform1 = mysqli_query($conn, $qy1);
     $row = mysqli_fetch_assoc($inform1);
     $_SESSION['amntt'] = $row['AMOUNT'];

@@ -13,10 +13,11 @@
     
         <?php
         include('connect.php');
+        include('secure.php');
         $qry = "SELECT * FROM REGISTER";
         $data = mysqli_query($conn, $qry);
         $rows = mysqli_num_rows($data);
-
+        $namee=$_SESSION['name'];
         if ($rows != 0) {
         ?>
             <center><table border="3">
@@ -44,7 +45,11 @@
             echo "<font color='red'>There is no user registered yet!!!!";
         }
             ?>
-            </table></center>
+            </table>
+            <div class="bttn">
+                   <a href="logout.php"> <button type="submit" class="subtn">Logout</button></a>
+                </div>
+        </center>
             <script>
         function checkcon() {
             var test=confirm('Are you sure you want to delete ?');
