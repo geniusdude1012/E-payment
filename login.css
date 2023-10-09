@@ -151,4 +151,11 @@ span
     transition: 0.3s;
     box-shadow: 0 0 15px rgba(0, 0, 0,0.7);
 }
-
+.buttons
+{
+	display: flex;
+}
+.admin button
+{
+    margin: 9px auto;
+}

@@ -23,12 +23,16 @@ table td{
     padding: 5px;
     border: 2px solid black;
 }
+.bttn{
+    margin: 21px;
+}
 .bttn button
 {
     padding: 6px;
     cursor: pointer;
     border-radius: 7px;
     background-color: #a0f150;
+    font-size: 19px;
 }
 .bttn button:hover
 {

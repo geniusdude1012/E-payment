@@ -9,7 +9,7 @@ $date = $_POST['date'];
 error_reporting(0);
 if($units<=0)
 {
-    echo "<font color='red' family='sans-serif'>Invalid entry!!!Try again.....";
+    echo "<font color='red' family='sans-serif'>Invalid Unit entry!!!Try again.....";
     
     ?>
         <meta http-equiv="refresh" content="1; url = electricity.html" />
